@@ -24,7 +24,7 @@ import type {
   InsertSettings,
   ActivityLog,
   InsertActivityLog,
-} from "@shared/schema";
+} from "./db/schema";
 
 export interface IStorage {
   // Users

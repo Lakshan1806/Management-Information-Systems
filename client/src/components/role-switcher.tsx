@@ -1,5 +1,5 @@
 import { useRole } from "@/contexts/role-context";
-import { UserRole } from "@shared/schema";
+import { UserRole } from "@/lib/user-role";
 import {
   Select,
   SelectContent,

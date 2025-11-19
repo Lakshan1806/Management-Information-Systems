@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, ReactNode, useEffect } from "react";
-import { UserRole } from "@shared/schema";
+import { UserRole } from "@/lib/user-role";
 
 interface RoleContextType {
   currentRole: UserRole;

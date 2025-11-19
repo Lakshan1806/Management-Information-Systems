@@ -1,4 +1,4 @@
-import { UserRole } from "@shared/schema";
+import { UserRole } from "@/lib/user-role";
 
 export type Permission = "read" | "create" | "edit" | "delete" | "approve" | "action";
 
